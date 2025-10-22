@@ -1,0 +1,9 @@
+# GitHub repository settings
+repository:
+  # Disable certain features
+  has_issues: true
+  has_projects: true
+  has_wiki: false
+  
+  # Default branch
+  default_branch: main
