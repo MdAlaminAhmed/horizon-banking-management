@@ -7,6 +7,24 @@ A modern, full-stack banking management application built with Next.js 14, TypeS
 ![JavaScript](https://img.shields.io/badge/JavaScript-1.5%25-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+---
+
+## 🚀 Quick Deploy to Vercel
+
+**Ready to deploy?** Choose your guide:
+
+| Guide | Time | Best For |
+|-------|------|----------|
+| 📖 [**VERCEL_DEPLOYMENT_GUIDE.md**](./VERCEL_DEPLOYMENT_GUIDE.md) | 15 min | First-time deployment (Recommended) |
+| ⚡ [**QUICK_DEPLOY.md**](./QUICK_DEPLOY.md) | 5 min | Experienced users |
+| ✅ [**DEPLOYMENT_CHECKLIST.md**](./DEPLOYMENT_CHECKLIST.md) | - | Track progress |
+| 🎯 [**START_DEPLOYMENT_HERE.md**](./START_DEPLOYMENT_HERE.md) | - | Choose your path |
+
+**Performance Optimized:** 2-20x faster with caching, parallelization, and HTTP keep-alive! 🔥  
+Read: [PERFORMANCE_OPTIMIZATIONS.md](./PERFORMANCE_OPTIMIZATIONS.md)
+
+---
+
 ## ✨ Features
 
 ### 🔐 Authentication & Security
