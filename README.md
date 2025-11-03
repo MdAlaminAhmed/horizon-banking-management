@@ -7,6 +7,11 @@ A modern, full-stack banking management application built with Next.js 14, TypeS
 ![JavaScript](https://img.shields.io/badge/JavaScript-1.5%25-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+> 🎓 **For Students & Learning:**  
+> This project includes a `.env.sample` file with **working sandbox credentials**!  
+> Just run `cp .env.sample .env` and start immediately - no API key signup required. 🚀  
+> Perfect for learning, practice, and educational projects.
+
 ---
 
 ## 🚀 Quick Deploy to Vercel
@@ -115,7 +120,28 @@ Read: [PERFORMANCE_OPTIMIZATIONS.md](./PERFORMANCE_OPTIMIZATIONS.md)
 
 3. **Set up environment variables**
    
-   Create a `.env` file in the root directory and add the following:
+   ### 🎓 For Students/Practice (Quick Start):
+   
+   **Easy way** - Use the provided sample with working sandbox credentials:
+   ```bash
+   # Copy the sample file (includes working credentials)
+   cp .env.sample .env
+   
+   # That's it! Ready to run immediately 🚀
+   ```
+   
+   The `.env.sample` file includes working sandbox credentials for:
+   - ✅ Appwrite (cloud database)
+   - ✅ Plaid (sandbox banking API)
+   - ✅ Dwolla (sandbox payments)
+   
+   **No API key signup needed - perfect for learning!**
+   
+   ---
+   
+   ### 🏢 For Production/Your Own Project:
+   
+   Get your own API credentials and create a `.env` file:
 
    ```env
    # Next.js
@@ -147,6 +173,11 @@ Read: [PERFORMANCE_OPTIMIZATIONS.md](./PERFORMANCE_OPTIMIZATIONS.md)
    NEXT_PUBLIC_SENTRY_DSN=your_sentry_dsn
    SENTRY_DSN=your_sentry_dsn
    ```
+   
+   **Get your credentials from:**
+   - [Appwrite Console](https://cloud.appwrite.io)
+   - [Plaid Dashboard](https://dashboard.plaid.com)
+   - [Dwolla Dashboard](https://dashboard.dwolla.com)
 
 4. **Set up Appwrite Database**
 
